@@ -42,14 +42,3 @@ function invokeAction({ action, id, name, email, phone }) {
 }
 
 invokeAction(argv);
-
-// (async () => {
-//   console.log("listContacts", await listContacts());
-//   console.log("getContactById", await getContactById("2"));
-//   await removeContact("4");
-//   console.log("removeContact", await listContacts());
-//   console.log(
-//     "addContact",
-//     await addContact("Wylie Pope", "est@utquamvel.net", "(692) 802-2949")
-//   );
-// })();
