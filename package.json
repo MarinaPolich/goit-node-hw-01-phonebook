@@ -1,0 +1,25 @@
+{
+  "name": "goit-node-hw-01-phonebook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon ./index.js localhost 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarinaPolich/goit-node-hw-01-phonebook.git"
+  },
+  "author": "Marina Polich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarinaPolich/goit-node-hw-01-phonebook/issues"
+  },
+  "homepage": "https://github.com/MarinaPolich/goit-node-hw-01-phonebook#readme",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "nodemon": "^2.0.20"
+  }
+}
